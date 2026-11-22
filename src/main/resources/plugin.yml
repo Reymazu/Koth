@@ -1,0 +1,13 @@
+name: SimpleKoth
+main: id.koth.KothPlugin
+version: ${version}
+api-version: '${apiVersion}'
+description: King of the Hill event plugin
+commands:
+  koth:
+    description: KOTH main command
+    usage: /koth <create|pos1|pos2|delete|list|start|stop|reload>
+permissions:
+  koth.admin:
+    description: Akses command admin KOTH
+    default: op

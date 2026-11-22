@@ -1,0 +1,17 @@
+# Prefix pesan (format MiniMessage)
+prefix: "<gold><bold>[KOTH]</bold></gold> <gray>"
+
+# Berapa detik pemain harus nguasain zona sendirian buat menang
+capture-time-seconds: 300
+
+# Batas durasi satu event (detik). Isi 0 kalau gak mau ada batas waktu.
+max-duration-seconds: 1800
+
+# Tiap berapa detik progress capture di-broadcast (minimal 5)
+broadcast-interval-seconds: 30
+
+# Command reward yang dijalanin console buat pemenang.
+# Placeholder: %player% = nama pemenang, %arena% = nama arena
+rewards:
+  - "give %player% diamond 5"
+  - "give %player% golden_apple 3"
